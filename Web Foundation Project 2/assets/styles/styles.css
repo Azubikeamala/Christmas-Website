@@ -1,6 +1,6 @@
 /*
 Name: Amalachukwu Azubike
-Student No: 9036451
+
 
 */
 
@@ -240,7 +240,7 @@ body {
 /* Pentagon Shape */
 .pentagon {
     clip-path: polygon(30% 0, 63% 0, 100% 45%, 85% 100%, 14% 100%, 0 41%);
-    background-image: url(/assets/images/chr.png);
+    background-image: url(../images/chr.png);
     background-size: cover; 
     background-position: center; 
 }
@@ -296,7 +296,7 @@ body {
 /* Angled Shape */
 .angled-shape {
     clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 10% 50%, 0% 0%);
-    background-image: url(/assets/images/4.jpg);
+    background-image: url(../images/4.jpg);
     background-size: cover; 
     background-position: center; 
 }
