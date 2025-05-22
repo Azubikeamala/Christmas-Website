@@ -1,113 +1,94 @@
-<!--
-Name: Amalachukwu Azubike
-Student No: 9036451
-
--->
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Christmas</title>
-    <link rel="stylesheet" href="assets/styles/styles.css">
-    <link rel="icon" type="image/png" href="assets/images/favicon/logo.png">
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="icon" type="image/png" href="assets/images/favicon/logo.png" />
 </head>
 <body>
     <header>
-        <div class="logo"><a href="/index.html"><img src="/assets/images/logo.png" alt=" Christmas Logo"></a></div>
+        <div class="logo"><a href="index.html"><img src="assets/images/logo.png" alt="Christmas Logo"></a></div>
         <div class="project-info">
             <h1>Season's Greetings</h1>
         </div>
         <nav>
             <ul class="nav-links">
                 <li class="dropdown">
-                    <a href="/index.html">Christmas Cinema</a>
+                    <a href="index.html">Christmas Cinema</a>
                     <ul class="dropdown-menu">
-                        <li><a href="/inner.html">Cinema Locations</a></li>
-                        <li><a href="/inner.html">Upcoming Releases</a></li>
+                        <li><a href="inner.html">Cinema Locations</a></li>
+                        <li><a href="inner.html">Upcoming Releases</a></li>
                     </ul>
                 </li>
-                <li class="active"><a href="/inner.html">Christmas Activies</a></li>
-                <li><a href="/inner2.html">Christmas Home Decore Ideas</a></li>
-                <li><a href="/about.html">About us</a></li>
+                <li class="active"><a href="inner.html">Christmas Activities</a></li>
+                <li><a href="inner2.html">Christmas Home Decor Ideas</a></li>
+                <li><a href="about.html">About us</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
     <section class="innerHero">
-        
         <h2>Season's Greeting</h2>
-           
     </section>
 
-    <!-- Text and Video Section with Events Schedule -->
-<section class="text-video-schedule">
-    <div class="aside">
-        <h2>Celebrate the Joy of Christmas</h2>
-        <p>Christmas is a magical time filled with warmth, laughter, and festive activities. From decorating trees to singing carols, there are countless ways to celebrate.</p>
-        <p>Explore our curated list of Christmas activities and make this holiday season unforgettable for you and your loved ones.</p>
+    <section class="text-video-schedule">
+        <div class="aside">
+            <h2>Celebrate the Joy of Christmas</h2>
+            <p>Christmas is a magical time filled with warmth, laughter, and festive activities. From decorating trees to singing carols, there are countless ways to celebrate.</p>
+            <p>Explore our curated list of Christmas activities and make this holiday season unforgettable for you and your loved ones.</p>
+        </div>
 
+        <div class="video-content">
+            <video controls poster="assets/images/5.jpg" autoplay loop>
+                <source src="assets/images/6.mp4" type="video/mp4">
+                Your browser does not support this video tag.
+            </video>
+        </div>
+    </section>
 
-    </div>
-   
-   
+    <section>
+        <div class="table-content">
+            <h2>Christmas Events Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Event</th>
+                        <th>Location</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>December 20</td>
+                        <td>Christmas Tree Lighting</td>
+                        <td>Central Park</td>
+                    </tr>
+                    <tr>
+                        <td>December 24</td>
+                        <td>Caroling Night</td>
+                        <td>Downtown</td>
+                    </tr>
+                    <tr>
+                        <td>December 25</td>
+                        <td>Christmas Parade</td>
+                        <td>Main Street</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-    <div class="video-content">
-        <video controls poster="/assets/images/5.jpg" autoplay loop>
-            <source src="/assets/images/6.mp4" type="video/mp4">
-            Your browser does not support this video tag.
-        </video>
-    </div>
-</section>
-<section>
-
-    <div class="table-content">
-        <h2>Christmas Events Schedule</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Event</th>
-                    <th>Location</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>December 20</td>
-                    <td>Christmas Tree Lighting</td>
-                    <td>Central Park</td>
-                </tr>
-                <tr>
-                    <td>December 24</td>
-                    <td>Caroling Night</td>
-                    <td>Downtown</td>
-                </tr>
-                <tr>
-                    <td>December 25</td>
-                    <td>Christmas Parade</td>
-                    <td>Main Street</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</section>
-
-
-    <!-- Form Section -->
     <section class="form-section">
         <h2>Join Our Christmas Activities</h2>
-        <form action="/about.html" method="post">
+        <form action="about.html" method="post">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
-            
+
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            
+
             <label for="activity">Select an Activity:</label>
             <select id="activity" name="activity">
                 <optgroup label="Outdoor Activities">
@@ -119,53 +100,52 @@ Student No: 9036451
                     <option value="baking">Baking Workshop</option>
                 </optgroup>
             </select>
-            
+
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments" rows="5"></textarea>
-            
+
             <fieldset>
                 <legend>Food Preferences:</legend>
                 <label><input type="checkbox" name="food" value="vegan"> Vegan</label>
                 <label><input type="checkbox" name="food" value="gluten-free"> Gluten-Free</label>
                 <label><input type="checkbox" name="food" value="none"> No Preference</label>
             </fieldset>
-            
+
             <fieldset>
                 <legend>Participation Mode:</legend>
                 <label><input type="radio" name="mode" value="online" required> Online</label>
                 <label><input type="radio" name="mode" value="in-person" required> In-Person</label>
             </fieldset>
-            
+
             <button type="reset">Reset</button>
             <button type="submit">Submit</button>
         </form>
     </section>
 
-    <!-- Footer Section -->
     <footer class="footer">
         <div class="footer-menu">
             <div class="menu-column">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="/about.html">About Us</a></li>
-                    <li><a href="/inner.html">Christmas Activities</a></li>
-                    <li><a href="/inner.html">FAQ</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="inner.html">Christmas Activities</a></li>
+                    <li><a href="inner.html">FAQ</a></li>
                 </ul>
             </div>
             <div class="menu-column">
                 <h4>Book and Movie Genres</h4>
                 <ul>
-                    <li><a href="/index.html">Animation</a></li>
-                    <li><a href="/index.html">Family</a></li>
-                    <li><a href="/index.html">Drama</a></li>
+                    <li><a href="index.html">Animation</a></li>
+                    <li><a href="index.html">Family</a></li>
+                    <li><a href="index.html">Drama</a></li>
                 </ul>
             </div>
             <div class="menu-column">
                 <h4>Activities</h4>
                 <ul>
-                    <li><a href="/inner.html">Christmas Tree Light</a></li>
-                    <li><a href="/inner.html">Carol Night</a></li>
-                    <li><a href="/inner.html">Christmas Parade</a></li>
+                    <li><a href="inner.html">Christmas Tree Light</a></li>
+                    <li><a href="inner.html">Carol Night</a></li>
+                    <li><a href="inner.html">Christmas Parade</a></li>
                 </ul>
             </div>
         </div>
@@ -174,3 +154,4 @@ Student No: 9036451
         </div>
     </footer>
 </body>
+</html>
